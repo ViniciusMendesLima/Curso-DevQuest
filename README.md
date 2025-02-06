@@ -26,6 +26,17 @@
 - O que significa Vw e Vh?
 - Box sizing border box
 
+## HTML5 Intermedíario
+
+- Input text
+- Inputs number, password e submit
+- Checkbox e Radio
+- Select
+- Textarea
+- Button e input type button
+- Formulários
+- Tags semânticas
+
 ## EXERCÍCIOS CSS BÁSICO
 - Lista de Compras
 - Imagem com link
