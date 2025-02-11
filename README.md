@@ -26,6 +26,11 @@
 - O que significa Vw e Vh?
 - Box sizing border box
 
+## EXERCÍCIOS CSS BÁSICO
+- Lista de Compras
+- Imagem com link
+- Parágrafos coloridos
+
 ## HTML5 Intermedíario
 
 - Input text
@@ -37,7 +42,21 @@
 - Formulários
 - Tags semânticas
 
-## EXERCÍCIOS CSS BÁSICO
-- Lista de Compras
-- Imagem com link
-- Parágrafos coloridos
+## CSS3 Intermediário
+- Especificidade e Efeito Cascata
+- Estilos de textos
+- Propriedades das fontes
+-  Usando fontes do Google Fonts
+-  Usando fontes que não existem no Google Fonts
+-  Estilizando Links
+-  Estilizando Listas
+-  Estilizando Backgrounds
+-  Posicionamento com Display
+-  Position Static, Relative e Absolute
+- Position fixed
+- Media Queries
+- Float
+- Centralizando Elementos
+- Adicionando e customizando ícones com o Font Awesome
+
+
