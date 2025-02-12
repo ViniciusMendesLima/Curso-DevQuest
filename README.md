@@ -59,4 +59,12 @@
 - Centralizando Elementos
 - Adicionando e customizando ícones com o Font Awesome
 
+## HTML Avançado
+- Imagens responsivas usando a Tag Picture
+- Criando um ícone de Favicon
+- Criando Emojis
+- Adicionando áudio nas suas páginas
+- Adicionado vídeos às páginas com a tag video
+- Iframes
+
 
