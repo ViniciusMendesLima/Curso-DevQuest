@@ -67,4 +67,12 @@
 - Adicionado vídeos às páginas com a tag video
 - Iframes
 
+## CSS Avançado parte 1
+
+- Pseudo Classes
+- Pseudo Elementos
+- Seletores
+- Aplicando transformações com transform
+- Trabalhando com variáveis
+
 
