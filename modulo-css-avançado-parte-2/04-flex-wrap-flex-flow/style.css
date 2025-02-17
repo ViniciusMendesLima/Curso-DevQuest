@@ -1,0 +1,47 @@
+.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: column; */
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* flex-direction: column; */
+}
+
+.row-nowrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.column-nowrap{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.column-wrap {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.row-wrap-reverse{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.column-wrap-reverse{
+    display: flex;
+    flex-flow: column wrap-reverse;
+}

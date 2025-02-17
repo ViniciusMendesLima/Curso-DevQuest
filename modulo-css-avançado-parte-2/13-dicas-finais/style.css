@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 300px;
+    border: 1px solid #ccc;
+    width: 300px;
+
+    
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+    background: lightblue;
+    margin: 10px;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.items {
+    align-items: center;
+}
+
+.content {
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.align-self {
+    align-self: center;
+}

@@ -75,4 +75,18 @@
 - Aplicando transformações com transform
 - Trabalhando com variáveis
 
+## CSS Avançado parte 2
+- Flex Direction
+- Justify Content
+- Align Itens
+- Flex Wrap e Flex Flow
+- Align Content
+- Gap
+- Grow
+- Basis
+- Shrink
+- Flex
+- Order
+- Align Self
+- Diferenças entre Justify Content, Align Items, Align Content e Align Self.
 
