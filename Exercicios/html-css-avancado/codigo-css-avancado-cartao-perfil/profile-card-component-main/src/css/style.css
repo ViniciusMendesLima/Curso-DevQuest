@@ -1,0 +1,78 @@
+:root{
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+body{
+    font-family: "Kumbh Sans", serif;
+    background-color: var(--background-color);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top:  20px;
+    padding-bottom:  30px;
+    border-bottom: 0.1px solid hsl(227, 10%, 46% );
+}
+
+.cor-diferenciada{
+    color: var(--text-color);
+}
+
+.perfil-informacao span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.perfil-informacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.estatisticas {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.contagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contagem .weights-bold {
+    font-weight: 700;
+}
