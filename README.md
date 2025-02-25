@@ -90,3 +90,10 @@
 - Align Self
 - Diferenças entre Justify Content, Align Items, Align Content e Align Self.
 
+## Exercícios HTML-CSS Avançado
+- Exercício Cartão de perfil
+- Exercício App Gerador de conselhos
+- Exercício menu com flexbox
+- Resolução do exercício menu com flexbox
+- Desvendado o mobile firte
+- Exercício lista de imagens

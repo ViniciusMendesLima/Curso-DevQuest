@@ -1,0 +1,41 @@
+main{
+    height: 100vh;
+    
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.lista li{
+    position: relative;
+    width: 335px;
+    height: 432px;
+    
+}
+
+.lista li .texto{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 18px;
+    margin-left: 43px;
+}
+
+.lista li .texto h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.lista li .texto p{
+    font-weight: 300;
+    font-size: 17px;
+}
