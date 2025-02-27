@@ -1,0 +1,71 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: #F7F7F7;
+}
+
+.container {
+    margin: 38px 35px;
+    display: grid;
+    
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+  }
+
+.video-grande{
+    grid-row: 1 / span 5;
+    grid-column: 1 / span 3;
+    margin-right: 20px;
+  }
+.video-grande img{
+    width: 100%;
+    height: 217px;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.propraganda{
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 2;
+    margin-bottom: 20px;
+}
+
+.video-pequeno{
+    display: flex;
+    grid-column: 4 / span 2;
+    margin-bottom: 15px;
+}
+
+.video-pequeno img{
+    margin-right: 4px;
+}
+
+.video-grande .descrição-video-grande {
+    display: grid;
+    grid-gap: 8px;
+}
+.video-grande .descrição-video-grande h1{
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.video-grande .descrição-video-grande span{         
+    font-size: 14px;
+}
+
+.video-grande .descrição-video-grande p{    
+    font-size: 16px;
+}
+
+.video-pequeno .descrição-video-pequeno h4{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.video-pequeno .descrição-video-pequeno p{
+    font-size: 11px;
+    margin-bottom: 5px;
+
+}
+

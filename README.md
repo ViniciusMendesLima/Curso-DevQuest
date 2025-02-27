@@ -90,6 +90,12 @@
 - Align Self
 - Diferenças entre Justify Content, Align Items, Align Content e Align Self.
 
+## CSS Avançado parte 3
+- Grid
+- Grid - Ocupando espaços
+- Grid Template Area
+- Grid auto fill e auto fit
+
 ## Exercícios HTML-CSS Avançado
 - Exercício Cartão de perfil
 - Exercício App Gerador de conselhos
@@ -97,3 +103,5 @@
 - Resolução do exercício menu com flexbox
 - Desvendado o mobile firte
 - Exercício lista de imagens
+- Resolução exercício lista de imagens
+-Exercício de layout YouTube com grid

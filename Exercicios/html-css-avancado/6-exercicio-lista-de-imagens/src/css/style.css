@@ -29,6 +29,7 @@ main{
     bottom: 0;
     margin-bottom: 18px;
     margin-left: 43px;
+    gap: 8px;
 }
 
 .lista li .texto h1{
