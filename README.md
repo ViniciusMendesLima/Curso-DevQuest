@@ -104,4 +104,5 @@
 - Desvendado o mobile firte
 - Exercício lista de imagens
 - Resolução exercício lista de imagens
--Exercício de layout YouTube com grid
+- Exercício de layout YouTube com grid
+- Resolução exercício de layout YouTube com grid
