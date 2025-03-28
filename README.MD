@@ -119,3 +119,33 @@
 6. Criando a seção de Serviços com Grid
 7. Criando a seção de Projetos com Grid
 8. Criando o Rodapé da Landing Page
+
+
+## JavaScript Básico
+1. Criando o seu primeiro arquivo JS
+2. Console e comentários no JS
+3. Declarando variáveis
+4. O que são tipos primitivos no JS
+5. Apresentando os operadores lógicos
+6. Utilizando operadores matemáticos
+7. Laços de repetição - Parte-01
+8. Laços de repetição - Parte-02
+9. Condicionais - Parte-01
+10. Condicionais - Parte-02
+11. Funções um dos conceitos mais importantes do JavaScript
+- Depurar erros
+- Teste de depuração
+
+## Exerícios JavaScript Básico
+- Exercício 1 : Apresente a mensagem, "Seja bem vindo(a),
+Fulano!"
+
+- Exercício 2 : Crie uma condição que verifica se um
+boleto está pago ou não
+
+- Exercício 3 : Apresente uma pop up de confirmação
+
+- Exercício 4 : Crie um for que conte de 0 até 10 e apresente a a
+seguinte mensagem para cada número dentro do laço
+
+- Exercício 5 : Laços de repetição e operadores matemáticos
