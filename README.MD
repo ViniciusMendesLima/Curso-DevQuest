@@ -1,5 +1,23 @@
 # Projetos e exercios feitos acompanhados o curso DevQuest
 
+## 📑 Sumário
+
+- [Modulo HTML5 BÁSICO](#modulo-html5-básico)
+- [CSS3 BÁSICO](#css3-básico)
+- [EXERCÍCIOS CSS BÁSICO](#exercícios-css-básico)
+- [HTML5 Intermediário](#html5-intermediário)
+- [CSS3 Intermediário](#css3-intermediário)
+- [HTML Avançado](#html-avançado)
+- [CSS Avançado parte 1](#css-avançado-parte-1)
+- [CSS Avançado parte 2](#css-avançado-parte-2)
+- [CSS Avançado parte 3](#css-avançado-parte-3)
+- [Exercícios HTML-CSS Avançado](#exercícios-html-css-avançado)
+- [Módulo de reforço CSS - Como criar um projeto do zero sem travar](#módulo-de-reforço-css---como-criar-um-projeto-do-zero-sem-travar)
+- [Projeto Lp Grid e Flex](#projeto-lp-grid-e-flex)
+- [JavaScript Básico](#javascript-básico)
+- [Exerícios JavaScript Básico](#exerícios-javascript-básico)
+- [JavaScript Intermediario](#javascript-intermediario)
+
 ## Modulo HTML5 BÁSICO
 - Primeiro html
 - Títulos e Parágrafos
@@ -31,7 +49,7 @@
 - Imagem com link
 - Parágrafos coloridos
 
-## HTML5 Intermedíario
+## HTML5 Intermediário
 
 - Input text
 - Inputs number, password e submit
@@ -149,3 +167,26 @@ boleto está pago ou não
 seguinte mensagem para cada número dentro do laço
 
 - Exercício 5 : Laços de repetição e operadores matemáticos
+
+## JavaScript Intermediario
+
+1. Escopos no JavaScript
+2. Hoisting
+3. Funções anônimas
+4. Arrow Functions
+5. Higher Order Functions (HOF)
+6. Arrays
+7. Arrays Multidimensionais
+8. Trabalhando com Arrays
+9. Splice e Slice
+10. Objetos no JS
+11. Métodos: adicionando Funções a Objetos
+12. O que é o This no JS?
+13. Diferenças entre Objetos e Arrays
+14. Como usar Objetos e Arrays em conjunto
+15. Introdução ao DOM e Document(aula teorica sem pratica)
+16. Usando o Document para selecionar elementos do DOM
+17. Como manipular os elementos do DOM
+18. Manipulando atributos e estilos dos elementos do DOM
+19. Eventos do DOM
+20. Encontrando e interpretando ERROS no JS
