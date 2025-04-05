@@ -1,0 +1,11 @@
+main div{
+    width: 100px;
+    height: 100px;
+}
+
+.primeira-cor{
+    background-color: blue;
+}
+.segunda-cor{
+    background-color: red;
+}
