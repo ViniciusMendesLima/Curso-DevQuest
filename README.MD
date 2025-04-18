@@ -17,6 +17,7 @@
 - [JavaScript Básico](#javascript-básico)
 - [Exerícios JavaScript Básico](#exerícios-javascript-básico)
 - [JavaScript Intermediario](#javascript-intermediario)
+- [JavaScript Avançado](#javascript-avançado)
 
 ## Modulo HTML5 BÁSICO
 - Primeiro html
@@ -190,3 +191,23 @@ seguinte mensagem para cada número dentro do laço
 18. Manipulando atributos e estilos dos elementos do DOM
 19. Eventos do DOM
 20. Encontrando e interpretando ERROS no JS
+
+## JavaScript Avançado
+1. Filter
+2. Map
+3. Reduce
+4. Template Strings: Interpolando strings
+5. Desestruturação de Objetos e Arrays
+6. Operador Spread
+7. Parâmetro Rest
+8. SetInterval e SetTimeOut
+9. Síncrono vs Assíncrono
+10. Promises
+11. Then
+12. Async e Await
+13. Tratando ERROS no JavaScript
+14. Json
+15. Requisições com o Fetch
+16.  Gerenciando pacotes com NPM
+17. Importar e exportar módulos JavaScript
+18. Export Default e Export Named
