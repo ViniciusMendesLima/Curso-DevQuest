@@ -15,6 +15,21 @@ async function getCards(deckId) {
   return await response.json();
 }
 
+const CardsList = (props) =>{
+    return (
+
+        <ul>
+        {props.cards.map((card, index) => {
+          return (
+            <li key={index}>
+              <img src={card.image} alt={card.value} />
+            </li>
+          );
+        })}
+      </ul>
+    )
+}
+
 const DeckOfCards = () => {
   const [deck, setDeck] = useState({
     cards: [],
@@ -34,15 +49,7 @@ const DeckOfCards = () => {
 
   return (
     <section>
-      <ul>
-        {deck.cards.map((card, index) => {
-          return (
-            <li key={index}>
-              <img src={card.image} alt={card.value} />
-            </li>
-          );
-        })}
-      </ul>
+      {deck.cards.length > 0 ? <CardsList cards={deck.cards} /> : "Nenhuma carta encontrada"}
     </section>
   );
 
