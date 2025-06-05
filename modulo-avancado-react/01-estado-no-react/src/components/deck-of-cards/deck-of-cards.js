@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Form from "../forms/form";
 
 async function createDeck() {
   const response = await fetch(
@@ -10,25 +11,24 @@ async function createDeck() {
 
 async function getCards(deckId) {
   const response = await fetch(
-    `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`
+    `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`
   );
   return await response.json();
 }
 
-const CardsList = (props) =>{
-    return (
-
-        <ul>
-        {props.cards.map((card, index) => {
-          return (
-            <li key={index}>
-              <img src={card.image} alt={card.value} />
-            </li>
-          );
-        })}
-      </ul>
-    )
-}
+const CardsList = (props) => {
+  return (
+    <ul>
+      {props.cards.map((card, index) => {
+        return (
+          <li key={index}>
+            <img src={card.image} alt={card.value} />
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
 
 const DeckOfCards = () => {
   const [deck, setDeck] = useState({
@@ -45,11 +45,24 @@ const DeckOfCards = () => {
       });
     };
     fetchData();
-  },[]);
+  }, []);
+
+  const addCard = (newCard) => {
+    console.log(newCard);
+
+    setDeck({
+      cards: [...deck.cards, newCard],
+    });
+  };
 
   return (
     <section>
-      {deck.cards.length > 0 ? <CardsList cards={deck.cards} /> : "Nenhuma carta encontrada"}
+      <Form addCard={addCard} />
+      {deck.cards.length > 0 ? (
+        <CardsList cards={deck.cards} />
+      ) : (
+        "Nenhuma carta encontrada"
+      )}
     </section>
   );
 
