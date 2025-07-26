@@ -61,11 +61,13 @@ export const ThemeProvider = (props) => {
     useEffect(() => {
         try {
             localStorage.setItem('theme', JSON.stringify(theme));
+            
+            
         } catch (e) {
             console.error("Failed to save theme to localStorage", e);
         }
     }, [theme]);
-
+    console.log(JSON.stringify(theme));
     return (
         <ThemeContext.Provider value={{ theme, setTheme }}>
             {props.children}
