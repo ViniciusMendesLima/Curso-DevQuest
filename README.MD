@@ -254,7 +254,7 @@
 
 ## React Avançado
 
-**codigos 1 a 11 são os codigo realizados pelo intrutor**
+**codigos 1 a 11 são os codigos realizados pelo intrutor**
 
 1. Usando states em um class component
 2. Ciclos de vida na prática
