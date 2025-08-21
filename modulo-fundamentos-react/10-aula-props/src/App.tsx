@@ -1,13 +1,16 @@
 
 import './App.css'
-import Tasks from './components/Tasks'
+import { Dashboard } from './components/Dashboard'
+
 
 function App() {
 
 
   return (
     <>
-     <Tasks/>
+   
+    <Dashboard username={"Vinicius"}></Dashboard>
+    <Dashboard username={null}></Dashboard>
     </>
   )
 }
