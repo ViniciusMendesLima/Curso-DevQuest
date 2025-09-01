@@ -12,11 +12,11 @@ type ThemeName = "light" | "dark";
 export const ThemeProvides = ( {children}: ThemeProviderProps) => {
     const [theme, setTheme] = useState<ThemeName>("dark");
 
-    const toogleTheme = () => {
+    const toggleTheme = () => {
         setTheme((prev) => (prev === "dark" ? "light" : "dark"))
     }
     return (
-        <ThemeContext.Provider value={{theme, toogleTheme}}>
+        <ThemeContext.Provider value={{theme, toggleTheme}}>
             {children}
         </ThemeContext.Provider>
     )
