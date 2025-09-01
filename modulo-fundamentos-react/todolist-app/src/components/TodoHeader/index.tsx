@@ -9,8 +9,8 @@ const TodoHeader = () => {
   console.log(themeConfig[theme]);
   
   return (
-    <header className="flex justify-between mb-6 pt-20">
-      <h1 className="text-white text-[2.5rem] font-bold tracking-[1rem]">
+    <header className="flex justify-between p-5 items-center mb-6">
+      <h1 className="text-white text-4xl sm:text-[2.5rem] font-bold tracking-[1rem]">
         Todo
       </h1>
       <button className="cursor-pointer" onClick={toggleTheme}>
