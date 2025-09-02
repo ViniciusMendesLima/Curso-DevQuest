@@ -26,12 +26,10 @@ export const useTodo = () => {
 
     event.currentTarget.reset();
 
-    setFilter('all')
+    setFilter("all");
   };
 
   const toggleTodoCompleted = (id: number) => {
-    console.log(id);
-
     const newTodoList = todoList.map((todo) => {
       if (id === todo.id) {
         const completed = !todo.completed;
@@ -58,12 +56,18 @@ export const useTodo = () => {
     setTodoList((prev) => prev.filter((todo) => !todo.completed));
   };
 
+  const itemDelete = (id: number) => {
+    const newTodoList = todoList.filter((todo) => todo.id !== id);
+    setTodoList(newTodoList);
+  };
+
   return {
     addTodo,
     toggleTodoCompleted,
     filteredTodos,
     clearCompleted,
     setFilter,
-    filter
+    filter,
+    itemDelete,
   };
 };
