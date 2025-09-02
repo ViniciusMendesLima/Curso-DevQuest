@@ -11,6 +11,7 @@ export interface Todo {
 }
 function App() {
   const [todoList, setTodoList] = useState<Todo[]>([]);
+  const [filter, setFilter] = useState<"all" | "active" | "completed">("all");
 
   const addTodo = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -33,10 +34,9 @@ function App() {
 
   const toggleTodoCompleted = (id: number) => {
     console.log(id);
-    
+
     const newTodoList = todoList.map((todo) => {
       if (id === todo.id) {
-        
         const completed = !todo.completed;
 
         return {
@@ -48,13 +48,29 @@ function App() {
       return todo;
     });
 
-    setTodoList(newTodoList)
+    setTodoList(newTodoList);
   };
+
+  const filteredTodos = todoList.filter((todo) => {
+    if (filter === "active") return !todo.completed;
+    if (filter === "completed") return todo.completed;
+    return true;
+  });
+
+  const clearCompleted = () => {
+    setTodoList(prev=> prev.filter(todo => !todo.completed))
+  }
   return (
     <TodoContainer>
       <TodoHeader />
       <TodoForm addTodo={addTodo} />
-      <TodoList todoList={todoList} toggleTodoCompleted={toggleTodoCompleted} />
+      <TodoList
+        todoList={filteredTodos}
+        toggleTodoCompleted={toggleTodoCompleted}
+        setFilter={setFilter}
+        filter={filter}
+        clearCompleted={clearCompleted}
+      />
     </TodoContainer>
   );
 }
